@@ -1,4 +1,4 @@
-# `gitlab-project`
+# `jenins-create-gitlab-project`
  auto create gitlab project
 
 ## 修改 `GitLab` 地址和 `GitLabToken` 信息
