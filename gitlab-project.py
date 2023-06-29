@@ -1,9 +1,5 @@
 #!-*- encoding: utf-8 -*-
 '''
-Created on 2016年12月7日
-
-@author: perry
-
 使用python-gitlab模块对gitlab进行组添加的操作
 
 https://python-gitlab.readthedocs.io/en/stable/index.html
@@ -25,10 +21,9 @@ gitlab.Project.VISIBILITY_PUBLIC 20
 class GitlabProject(object):
 
     def __init__(self):
-        # self.gl = gitlab.Gitlab('http://git.corp.bianlifeng.com', 'Ame76pkKqnKfBGx2UJnJ')
-        self.gl = gitlab.Gitlab('http://172.16.0.54/', 'bJ-Nm6BZCxG6n-aF8aVt')
+        self.gl = gitlab.Gitlab('http://gitlab.evescn.com/', 'Nh-Gm6cZC2G4n-aF8X1t')
         self.default_project_info = {
-            'import_url': 'http://172.16.0.54/init/bare.git',
+            'import_url': 'http://gitlab.evescn.com/init/bare.git',
         }
         self.visibility = {"private": gitlab.VISIBILITY_PRIVATE,
                            "internal": gitlab.VISIBILITY_INTERNAL,
