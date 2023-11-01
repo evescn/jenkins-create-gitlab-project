@@ -15,15 +15,15 @@ const (
 ## 制作 `Dcoker` 镜像
 
 ```shell
-docker build -t harbor.evesc.com/devops/gitlab-project:v1.0 -f .
+docker build -t harbor.evescn.com/devops/gitlab-project:v1.0 -f .
 
-docker push harbor.evesc.com/devops/gitlab-project:v1.0
+docker push harbor.evescn.com/devops/gitlab-project:v1.0
 ```
 
 ## 镜像测试
 
 ```shell
-docker run -name test harbor.evesc.com/devops/gitlab-project:v1.0
+docker run -name test harbor.evescn.com/devops/gitlab-project:v1.0
 docker exec -it test bash
 # /app/main --groupname ops --projectname test --visibility internal --desc "test project"
 ```
