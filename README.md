@@ -12,7 +12,7 @@ const (
 )
 ```
 
-## 制作 `Dcoker` 镜像
+## 制作 `Docker` 镜像
 
 ```shell
 docker build -t harbor.evescn.com/devops/gitlab-project:v1.0 -f .
